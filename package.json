@@ -6,12 +6,12 @@
   "author": "Mark Poepping <mark.poepping@admiralcloud.com>",
   "license": "MIT",
   "dependencies": {
-    "async": "^3.2.3",
+    "async": "^3.2.4",
     "lodash": "^4.17.21",
     "mysql": "^2.18.1"
   },
   "devDependencies": {
-    "ac-semantic-release": "^0.3.0",
-    "eslint": "^8.14.0"
+    "ac-semantic-release": "^0.3.4",
+    "eslint": "^8.32.0"
   }
 }
