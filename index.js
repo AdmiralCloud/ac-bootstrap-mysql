@@ -6,7 +6,7 @@
 const async = require('async')
 const _ = require('lodash') 
 
-const mysql = require('mysql')
+const mysql = require('mysql2')
 const crypto = require('crypto')
 
 const knownCertificates = [
