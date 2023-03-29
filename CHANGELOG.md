@@ -1,3 +1,15 @@
+<a name="1.0.0"></a>
+ 
+# [1.0.0](https://github.com/admiralcloud/ac-bootstrap-mysql/compare/v0.0.3..v1.0.0) (2023-03-29 19:14:40)
+
+
+### Feature
+
+* **App:** Replace mysql with mysql2 | MP | [6255edd2cd5cc364ddb433e58f9b1f4c9dda4628](https://github.com/admiralcloud/ac-bootstrap-mysql/commit/6255edd2cd5cc364ddb433e58f9b1f4c9dda4628)    
+Replace mysql with mysql2 for native Mysql8 support  
+Related issues: [undefined/undefined#master](undefined/browse/master)
+## BREAKING CHANGES
+* **App:** Replace mysql with mysql2
 <a name="0.0.3"></a>
 
 ## [0.0.3](https://github.com/admiralcloud/ac-bootstrap-mysql/compare/v0.0.2..v0.0.3) (2023-01-28 18:01:53)
