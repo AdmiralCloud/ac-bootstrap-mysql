@@ -5,7 +5,6 @@ const fs = require('fs')
 // AWS certificate
 const caCertificate = fs.readFileSync('./certs/global-bundle.pem', 'utf8');
 
-
 module.exports = (acapi, options, cb) => {
   const bootstrapping = _.get(options, 'bootstrapping', true)
 
