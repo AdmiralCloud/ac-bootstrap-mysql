@@ -1,3 +1,33 @@
+<a name="2.0.0"></a>
+ 
+# [2.0.0](https://github.com/admiralcloud/ac-bootstrap-mysql/compare/v1.0.3..v2.0.0) (2023-10-15 16:18:30)
+
+
+### Feature
+
+* **App:** Use async/await | MP | [1bd3e85c5b20addb07a553e7f72518493c771c19](https://github.com/admiralcloud/ac-bootstrap-mysql/commit/1bd3e85c5b20addb07a553e7f72518493c771c19)    
+The package is still backwards compatible  
+Related issues: [undefined/undefined#master](undefined/browse/master)
+### Documentation
+
+* **App:** Added documentation | MP | [69f69a155f1c9c076a4a458c00196e54b23327a7](https://github.com/admiralcloud/ac-bootstrap-mysql/commit/69f69a155f1c9c076a4a458c00196e54b23327a7)    
+Added documentation  
+Related issues: [undefined/undefined#master](undefined/browse/master)
+### Chores
+
+* **App:** Added current AWS certificate | MP | [34afd62d7c5f5894816d1b019468699406febeb7](https://github.com/admiralcloud/ac-bootstrap-mysql/commit/34afd62d7c5f5894816d1b019468699406febeb7)    
+Added current AWS certificate  
+Related issues: [undefined/undefined#master](undefined/browse/master)
+* **App:** Bring files up-to-date | MP | [5edadffe8c62b4579ad3ea93dacfa1cbe751dbe3](https://github.com/admiralcloud/ac-bootstrap-mysql/commit/5edadffe8c62b4579ad3ea93dacfa1cbe751dbe3)    
+Bring files up-to-date  
+Related issues: [undefined/undefined#master](undefined/browse/master)
+### Chores
+
+* **App:** Updated packages | MP | [5ae64c4247f6ead7f5b8f43d1833a81857921c4b](https://github.com/admiralcloud/ac-bootstrap-mysql/commit/5ae64c4247f6ead7f5b8f43d1833a81857921c4b)    
+Updated packages  
+Related issues: [undefined/undefined#master](undefined/browse/master)
+## BREAKING CHANGES
+* **App:** Use async/await
 <a name="1.0.3"></a>
 
 ## [1.0.3](https://github.com/admiralcloud/ac-bootstrap-mysql/compare/v1.0.2..v1.0.3) (2023-06-25 07:33:51)
