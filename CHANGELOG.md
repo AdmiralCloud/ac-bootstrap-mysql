@@ -1,3 +1,13 @@
+<a name="2.0.1"></a>
+
+## [2.0.1](https://github.com/admiralcloud/ac-bootstrap-mysql/compare/v2.0.0..v2.0.1) (2023-10-16 09:49:28)
+
+
+### Bug Fix
+
+* **App:** Fixed path for AWS certificate | MP | [187925126a6d77f23085096182ab348791219f11](https://github.com/admiralcloud/ac-bootstrap-mysql/commit/187925126a6d77f23085096182ab348791219f11)    
+Fixed path for AWS certificate  
+Related issues: [undefined/undefined#master](undefined/browse/master)
 <a name="2.0.0"></a>
  
 # [2.0.0](https://github.com/admiralcloud/ac-bootstrap-mysql/compare/v1.0.3..v2.0.0) (2023-10-15 16:18:30)
