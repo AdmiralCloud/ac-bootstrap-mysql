@@ -1,9 +1,11 @@
 const _ = require('lodash') 
 const mysql = require('mysql2')
 const fs = require('fs')
+const path = require('path');
 
 // AWS certificate
-const caCertificate = fs.readFileSync('./certs/global-bundle.pem', 'utf8');
+const caCertificatePath = path.join(__dirname, './certs/global-bundle.pem');
+const caCertificate = fs.readFileSync(caCertificatePath, 'utf8');
 
 module.exports = (acapi, options, cb) => {
   const bootstrapping = _.get(options, 'bootstrapping', true)
