@@ -7,10 +7,10 @@
   "license": "MIT",
   "dependencies": {
     "lodash": "^4.17.21",
-    "mysql2": "^3.6.2"
+    "mysql2": "^3.6.5"
   },
   "devDependencies": {
     "ac-semantic-release": "^0.4.2",
-    "eslint": "^8.51.0"
+    "eslint": "^8.56.0"
   }
 }
