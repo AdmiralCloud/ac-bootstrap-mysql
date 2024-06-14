@@ -1,3 +1,13 @@
+<a name="2.0.5"></a>
+
+## [2.0.5](https://github.com/admiralcloud/ac-bootstrap-mysql/compare/v2.0.4..v2.0.5) (2024-06-14 17:00:17)
+
+
+### Bug Fix
+
+* **App:** Package update | MP | [638f677aa73fa55a7732d8e8e93a6c1048a0bc8b](https://github.com/admiralcloud/ac-bootstrap-mysql/commit/638f677aa73fa55a7732d8e8e93a6c1048a0bc8b)    
+Package update  
+Related issues: [undefined/undefined#master](undefined/browse/master)
 <a name="2.0.4"></a>
 
 ## [2.0.4](https://github.com/admiralcloud/ac-bootstrap-mysql/compare/v2.0.3..v2.0.4) (2024-04-23 12:20:59)
