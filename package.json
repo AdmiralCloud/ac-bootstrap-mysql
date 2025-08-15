@@ -1,6 +1,6 @@
 {
   "name": "ac-bootstrap-mysql",
-  "version": "2.0.9",
+  "version": "2.0.10",
   "description": "Mysql init for AC apps",
   "repository": "admiralcloud/ac-bootstrap-mysql",
   "author": "Mark Poepping <mark.poepping@admiralcloud.com>",
