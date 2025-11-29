@@ -2,7 +2,10 @@
   "name": "ac-bootstrap-mysql",
   "version": "2.0.13",
   "description": "Mysql init for AC apps",
-  "repository": "admiralcloud/ac-bootstrap-mysql",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/admiralcloud/ac-bootstrap-mysql.git"
+  },
   "author": "Mark Poepping <mark.poepping@admiralcloud.com>",
   "license": "MIT",
   "dependencies": {
