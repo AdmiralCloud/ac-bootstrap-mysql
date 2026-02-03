@@ -1,6 +1,6 @@
 {
   "name": "ac-bootstrap-mysql",
-  "version": "2.0.15",
+  "version": "2.0.16",
   "description": "Mysql init for AC apps",
   "repository": {
     "type": "git",
