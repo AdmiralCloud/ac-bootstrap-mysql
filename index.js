@@ -13,15 +13,15 @@ module.exports = (acapi, options, cb) => {
   const log = acapi.log || console
 
   const init = async() => {
-    if (acapi.aclog) acapi.aclog.headline({ headline: 'mysql' })
+    if (acapi.aclog) { acapi.aclog.headline({ headline: 'mysql' }) }
 
     // init multiple instances for different purposes
     acapi.mysql = {}
     acapi.mysqlPromise = {}
     for (const db of _.get(acapi.config, 'database.servers')) {
-      if (_.get(db, 'ignoreBootstrap')) continue
+      if (_.get(db, 'ignoreBootstrap')) { continue }
       
-      let connection = _.pick(db, ['host', 'port', 'user', 'password', 'database', 'timezone', 'ssl', 'socketPath'])
+      const connection = _.pick(db, ['host', 'port', 'user', 'password', 'database', 'timezone', 'ssl', 'socketPath'])
       if (acapi.config.localDatabase) {
         _.forOwn(acapi.config.localDatabase, (val, key) => {
           _.set(connection, key, val)
@@ -45,7 +45,7 @@ module.exports = (acapi, options, cb) => {
 
       try {
         await acapi.mysqlPromise[_.get(db, 'server')].getConnection()
-        if (acapi.aclog) acapi.aclog.serverInfo(connection)
+        if (acapi.aclog) { acapi.aclog.serverInfo(connection) }
       }
       catch (e) {
         log.error('ac-bootstrap-mysql | getConnection | Failed %s', e?.message)
@@ -58,8 +58,8 @@ module.exports = (acapi, options, cb) => {
     init(acapi, options)
         .then(() => cb(null))
         .catch(err => {
-          if (bootstrapping) return cb(err)
-          if (err) log.error('Bootstrap.initMysql:failed with %j', err)
+          if (bootstrapping) { return cb(err) }
+          if (err) { log.error('Bootstrap.initMysql:failed with %j', err) }
           process.exit(0)
         })
   } 
