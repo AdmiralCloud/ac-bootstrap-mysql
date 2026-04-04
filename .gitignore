@@ -28,3 +28,4 @@ report.xml
 .jenkins.conf
 test.js
 debug.js
+.claude
