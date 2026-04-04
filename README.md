@@ -3,7 +3,7 @@ Please use this script whenever you want to connect to our AdmiralCloud database
 
 This new version supports async/await but is still fully backwards compatible. It supports the current AWS certificates.
 
-[![CodeQL](https://github.com/AdmiralCloud/ac-bootstrap-mysql/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/AdmiralCloud/ac-bootstrap-mysql/actions/workflows/github-code-scanning/codeql)
+[![Node.js CI](https://github.com/AdmiralCloud/ac-bootstrap-mysql/actions/workflows/node.js.yml/badge.svg)](https://github.com/AdmiralCloud/ac-bootstrap-mysql/actions/workflows/node.js.yml) [![CodeQL](https://github.com/AdmiralCloud/ac-bootstrap-mysql/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/AdmiralCloud/ac-bootstrap-mysql/actions/workflows/github-code-scanning/codeql)
 
 # Setup
 
