@@ -2,7 +2,7 @@ const globals = require('globals')
 
 module.exports = [
   {
-    files: ['index.js', 'test/test.js'],
+    files: ['index.js', 'test/index.test.js'],
     languageOptions: {
       ecmaVersion: 2022,
       sourceType: 'module',
