@@ -22,7 +22,8 @@ const app = {
           port: 3306, 
           user: 'your_user',
           password: 'your_password',
-          ssl: 'Amazon RDS' // required on LIVE infrastructure, remove on local or DEV stage
+          ssl: 'Amazon RDS', // required on LIVE infrastructure, remove on local or DEV stage
+          connectionLimit: 5 // optional, defaults to 5
         }
       ]
     }
