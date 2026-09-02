@@ -1,3 +1,24 @@
+## [2.0.21](https://github.com/admiralcloud/ac-bootstrap-mysql/compare/v2.0.20..v2.0.21) (2026-09-02 16:17:59)
+
+
+### Bug Fix
+
+
+* **App:** Remove lodash dependency and make pool connectionLimit configurable | MP | [221f788397d5499c2bb0e43a29555a5149ec2f09](https://github.com/admiralcloud/ac-bootstrap-mysql/commit/221f788397d5499c2bb0e43a29555a5149ec2f09)    
+Remove lodash dependency and make pool connectionLimit configurable  
+Related issues:
+### Chores
+
+
+* **Misc:** Minor fix | MP | [9f13901333bb5d733b0ef91290a762ba63251383](https://github.com/admiralcloud/ac-bootstrap-mysql/commit/9f13901333bb5d733b0ef91290a762ba63251383)    
+Minor fix  
+Related issues:
+### Chores
+
+
+* **App:** Updated packages | MP | [376e6b91cae2fad2ea309157fd90fbc73daf4ca0](https://github.com/admiralcloud/ac-bootstrap-mysql/commit/376e6b91cae2fad2ea309157fd90fbc73daf4ca0)    
+Updated packages  
+Related issues:
 ## [2.0.20](https://github.com/admiralcloud/ac-bootstrap-mysql/compare/v2.0.19..v2.0.20) (2026-04-17 07:48:07)
 
 
