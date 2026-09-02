@@ -155,6 +155,18 @@ describe('ac-bootstrap-mysql', () => {
       expect(config.connectionLimit).to.equal(5);
     });
 
+    it('uses a custom connectionLimit when specified per server', async () => {
+      const mysql2 = buildMysql2Mock();
+      const bootstrap = loadModule(mysql2);
+      const acapi = buildAcapi({
+        servers: [{ server: 'main', host: 'localhost', user: 'root', connectionLimit: 20 }]
+      });
+
+      await bootstrap(acapi, {});
+
+      expect(mysql2.createdPools[0].config.connectionLimit).to.equal(20);
+    });
+
     it('only passes expected connection fields to createPool', async () => {
       const mysql2 = buildMysql2Mock();
       const bootstrap = loadModule(mysql2);
